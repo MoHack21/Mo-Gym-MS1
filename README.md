@@ -19,3 +19,5 @@ What I didn't have time to do
 What Functionality(s) i'd like to add in the future
 
 What bugs i found and resolved
+
+User Stories
