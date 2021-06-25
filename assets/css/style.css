@@ -6,6 +6,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
+    overflow-x: hidden;
 }
 
 .inline-block{
@@ -14,10 +15,13 @@ body {
 
 /*------------------------------- Logo */
 
+
+
 .navbar-brand {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 30px;
+    margin-left: 10px;
 }
 
 /*------------------------------- Navigation Bar */
@@ -71,21 +75,29 @@ body {
 
 /*------------------------------- Classes */
 
-
+.classes{
+    margin-bottom: 30px;
+}
 
 .classes-header{
+    text-align: center;
+    margin-top: 30px;
     margin-bottom: 30px;
     
 }
 
-
+.classes-row{
+    margin: 0;
+}
 
 .adult-classes-img {
     background: url(../images/adult-classes.jpg) no-repeat;
-    height: 450px;
-    width: 300px;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
     border-radius: 70%;
     padding: 0;
+    position: relative;
 
 }
 
@@ -94,11 +106,12 @@ body {
 
 .kids-classes-img {
     background: url(../images/kids-classes.jpg) no-repeat;
-    height: 450px;
-    width: 300px;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
     border-radius: 70%;
     padding: 0;
-    margin: 0;
+    position: relative;
 }
 
 
@@ -117,14 +130,12 @@ body {
 footer{
     background-color: rgba(97, 47, 12, 0.781);
     color: #fff;
-    min-height: 120px;
+    min-height: 160px;
     margin: 0;
-    
-
 }
 
 .social-links {
-    padding: 0;
+    padding:0;
     margin: 0;
 
 }
@@ -141,6 +152,7 @@ footer{
     text-align: center;
     border-radius: 50%;
     background: rgba(97, 48, 12);
+    margin-bottom: 10px;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -153,7 +165,7 @@ footer{
 
 .footer-box {
     border: #fff solid 3px;
-    height: 140px;
+    height: 160px;
     padding-top: 20px;
 }
 
