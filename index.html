@@ -26,7 +26,7 @@
                 <ul class="navbar-nav ml-auto nav-list">
                     <li class="active nav-item mr-2"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="about.html">About Us</a></li>
-                    <li class="nav-item mr-2"><a class="nav-link" href="classes.ntml">Classes</a></li>
+                    <li class="nav-item mr-2"><a class="nav-link" href="classes.html">Classes</a></li>
                     <li class="nav-item mr-2"><a class="nav-link" href="signup.html">Sign Up</a></li>
                 </ul>
             </div>
@@ -35,6 +35,8 @@
     </header>
 
     <!-----Cotents Body----->
+
+    <!-----Callout----->
 
     <div class="container-fluid callout-container">
         <div class="row">
@@ -48,11 +50,12 @@
         </div>
     </div>
 
+    <!-----Classes----->
 <div class="container-fluid classes">
     <section class="classes-info">
         <div class="row">
             <div class="col-12">
-                <h3 class="classes-header">Our Classes:</h3>
+                <h3 class="classes-header">Classes</h3>
             </div>
         </div>
         <div class="row classes-row">
@@ -169,11 +172,11 @@
                 <form>
                     <div class="form-group">
                         <label for="fullName">Full Name</label>
-                        <input type="text" class="form-control" id="fullName" placeholder="Roger Gracie">
+                        <input type="text" class="form-control" id="fullName" placeholder="Roger Gracie" required>
                       </div>
                     <div class="form-group">
                         <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                       </div>
                     <div class="form-group">
@@ -183,7 +186,7 @@
                     <div class="class-preference">Which of our classes are you interested in?</div>
                     <br>
                     <div class="form-group form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1" >
                       <label class="form-check-label" for="exampleCheck1">Adult Classes</label>
                     </div>
                     <div class="form-group form-check">

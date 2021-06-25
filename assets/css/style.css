@@ -173,3 +173,18 @@ footer{
     font-size: 18px;
 }
 
+/*------------------------------- Classes Page - Classes */
+
+.classes-bg {
+    background: url(../images/classes.jpg) no-repeat;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.795);
+    height: 600px;
+
+}
+
+
+/*------------------------------- schedule Table */
+
+
+
