@@ -16,7 +16,7 @@
     <!-----Logo & Navigation---->
 
     <header class="heading">
-        <nav class="navbar navbar-dark navbar-expand-sm">
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <a href="index.html" class="navbar-brand">MJJ Martial Arts</a>
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="toggle" data-target="#navbarNavDropdown" 
@@ -36,8 +36,51 @@
 
     <!-----Cotents Body----->
 
-    <section>
+    <div class="container-fluid callout-container">
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron">
+                    <h1 class="jumbotron-header">Welcome to Mo's Jiu Jitsu Academy</h1>
+                    <p class="jumbotron-intro">Everyone is Welcome</p>
+                    <p><button class="btn btn-lg btn-dark" data-toggle="modal" data-target="#joinNowModal">Join Now</button></p>
+                </section>
+            </div>
+        </div>
+    </div>
 
+
+    <div class="container classes"></div>
+    <section class="classes-info">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="classes-header">Our Classes:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-2 col-lg-2">
+                <div class="short-classes-info">
+                    <h4>Adults</h4>
+                    <p>Adults classes include</p>
+                    <p><a class="btn btn-outline-secondary" href="classes.html">More Info</a></p>
+                </div>    
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                <div class="d-none d-sm-block adult-classes-img">              
+                </div>    
+            </div>
+            
+            <div class="col-12 col-md-2 col-lg-2">
+                <div class="short-classes-info">
+                    <h4>Kids</h4>
+                    <p>Kids classes include</p>
+                    <p><a class="btn btn-outline-secondary" href="classes.html">More Info</a></p>
+                </div>   
+            </div>
+            <div class="col-12 col-md-4 col-lg-4">
+                    <div class="d-none d-sm-block kids-classes-img">                        
+                    </div>    
+            </div> 
+        </div>
     </section>
 
     <!-----Footer----->
@@ -101,6 +144,59 @@
         </div>
     </div>
 </footer>
+
+<!----/Footnote----->
+
+
+<!-----Modal------>
+
+
+<div class="modal" tabindex="-1" role="dialog" id="joinNowModal" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Join MJJ Martial Arts Academy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Roger Gracie">
+                      </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                    <div class="form-group">
+                      <label for="contactNo">Contact Number</label>
+                      <input type="text" class="form-control" id="contactNo">
+                    </div>
+                    <div class="class-preference">Which of our classes are you interested in?</div>
+                    <br>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Adult Classes</label>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Kids Classes</label>
+                      </div>
+                    <button type="submit" class="btn btn-seondary mt-3">Submit</button>
+                  </form>
+        </div>
+    </div>
+</div>
+
+    <!-----Scripts----->
+
+
+</div>
+
+</div>
     <!-----Scripts----->
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
