@@ -26,6 +26,19 @@ em{
     font-style: normal;
     
 }
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-margin{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+iframe{
+    min-width: 15vw;
+}
 /*------------------------------- Logo */
 
 
@@ -319,6 +332,12 @@ a.btn.btn-dark{
 
 }
 
+/*------------------------------- Instructors */
+
+.about-page{
+    overflow: hidden;
+}
+
 .about-heading{
     color: #fafafa;
     text-align: center;
@@ -337,8 +356,8 @@ hr{
     width: 300px;
     border-radius: 50%;
     background-color: #808080cb;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
+ 
+    
 }
 
 .instructorTwo {
@@ -348,8 +367,7 @@ hr{
     width: 300px;
     border-radius: 50%;
     background-color: #808080cb;
-    margin-left: 3rem;
-    margin-bottom: 3rem;
+    
 }
 
 .instructor-info{
@@ -362,6 +380,7 @@ hr{
 
 .instructor-one-details{
     background-color: rgba(207, 207, 207, 0.40);
+
 }
 
 .instructor-two-details{
@@ -373,6 +392,8 @@ hr{
     text-align: center;
     color: #fafafa;
 }
+
+/*------------------------------- Getting Here */
 
 .train, .bus, .car, .cycling{
     color: #fafafa;
