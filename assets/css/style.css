@@ -38,7 +38,7 @@ body {
 
 .callout-container{
     
-    background: url("../images/callout.jpg") no-repeat bottom right fixed; 
+    background: url("../images/callout.jpg") no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -46,7 +46,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600px
+    height: 680px
       
 }
 
@@ -179,12 +179,77 @@ footer{
     background: url(../images/classes.jpg) no-repeat;
     background-size: cover;
     background-color: rgba(128, 128, 128, 0.795);
-    height: 600px;
+
 
 }
 
+.full-classes-info{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.full-classes-info h4{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #fafafa;
+}
+
+.class-page-row, .classPage-header{
+    background-color: #00000077;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+
+.class-page-head-bg{
+    padding: 0;
+}
+
+.summary{
+
+    font-size: 1.7rem;
+    text-transform: none;
+    color: #fafafa;
+}
+
+.detail{
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-transform: none;
+    color: #fafafa;
+   
+}
+
+
+.full-classes-info p{
+    text-align: justify;
+}
+
+a.btn.btn-dark{
+    color: #fafafa;
+
+}
+
+.classPage-header{
+    margin-bottom: 0;
+    height: 50px;
+    vertical-align: 5px;
+    padding-top: 10px;
+    color: #fafafa;
+}
 
 /*------------------------------- schedule Table */
 
+.timeTable{
+    margin-bottom: 30px;
+}
 
-
+.table td, .table th {
+    padding: 1rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    background-color: #8080809c;
+    font-weight: 600;
+    color: #fafafa;
+}

@@ -38,61 +38,96 @@
 
     <!-----Classes----->
 <article>
-    <div class="container-fluid classes classes-bg">
-        <section class="classes-info">
+    <div class="container-fluid classes-page classes-bg">
+        <section class="full-classes-info">
             <div class="row">
-                <div class="col-12 mt-5">
-                    <h3 class="classes-header">Classes</h3>
+                <div class="col-12 mt-5 class-page-head-bg">
+                    <h3 class="classPage-header">Classes</h3>
                 </div>
             </div>
-            <div class="row classes-row">
+            <div class="row class-page-row "> 
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="full-classes-info">
                         <h4>Adults</h4>
-                        <p>Adults classes include</p>
-                        <p><a class="btn btn-outline-secondary" href="classes.html">Register Interest</a></p>
+                        <p class="summary">Discover and learn the fine martial art of Brazilian Jiu Jitsu that revolves around grappling and 
+                            ground fighting. Most of the techniques focus on taking your opponent to the ground where you can 
+                            control and look to submit them – they tap out.</p>
+                        <p class="detail">
+                            BJJ promotes the idea that a smaller, weaker person can use leverage, grip, skill, position plus 
+                            tactical skills and problem solving to successfully defend against a bigger, stronger assailant by 
+                            successfully applying a range of techniques like chokeholds and joint locks.</p>
+                            <div class="centre-button"><a class="btn btn-dark " data-toggle="modal" data-target="#joinNowModal">Register Interest</a></div>
                     </div>    
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="full-classes-info">
                         <h4>Kids</h4>
-                        <p>Kids classes include</p>
-                        <p><a class="btn btn-outline-secondary" href="classes.html">Register Interest</a></p>
-                    </div>   
+                        <p class="summary">Discover and learn the fine martial art of Brazilian Jiu Jitsu that revolves around grappling and 
+                            ground fighting. Most of the techniques focus on taking your opponent to the ground where you can 
+                            control and look to submit them – they tap out.</p>
+                        <p class="detail">
+                            BJJ promotes the idea that a smaller, weaker person can use leverage, grip, skill, position plus 
+                            tactical skills and problem solving to successfully defend against a bigger, stronger assailant by 
+                            successfully applying a range of techniques like chokeholds and joint locks.</p>
+                            <div class="centre-button"><a class="btn btn-dark " data-toggle="modal" data-target="#joinNowModal">Register Interest</a></div>
+                    </div>    
                 </div>
             </div>
             <div class="row">
 
                 <!-----Timetable----->
 
-                <div class="col-12 mt-5">
+                <div class="col-12 mt-5 timeTable">
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">First</th>
-                            <th scope="col">Last</th>
-                            <th scope="col">Handle</th>
+                            <th scope="col">Day</th>
+                            <th scope="col">Adults</th>
+                            <th scope="col">Kids</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
+                            <th scope="row days">Monday</th>
+                            <td>GI - 20:00 - 21:00 </td>
+                            <td>GI - 19:00 - 20:00</td>
+
                         </tr>
                         <tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
+                            <th scope="row days">Tuesday</th>
+                            <td>NO-GI - 20:00 - 21:00 </td>
+                            <td>NO-GI - 19:00 - 20:00</td>
+
                         </tr>
                         <tr>
-                            <th scope="row">3</th>
-                            <td>Larry</td>
-                            <td>the Bird</td>
-                            <td>@twitter</td>
+                            <th scope="row days">Wednesday</th>
+                            <td>GI - 20:00 - 21:00 </td>
+                            <td>GI - 19:00 - 20:00</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row days">Thursday</th>
+                            <td>NO-GI - 20:00 - 21:00 </td>
+                            <td>NO-GI - 19:00 - 20:00</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row days">Friday</th>
+                            <td>GI - 20:00 - 21:00 </td>
+                            <td>GI - 19:00 - 20:00</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row days">Saturday</th>
+                            <td>NO-GI - 12:00 - 14:00 </td>
+                            <td>NO-GI - 10:00 - 12:00</td>
+
+                        </tr>
+                        <tr>
+                            <th scope="row days">Saturday</th>
+                            <td>NO-GI - 12:00 - 14:00 </td>
+                            <td>NO-GI - 10:00 - 12:00</td>
+
                         </tr>
                         </tbody>
                     </table>
@@ -175,7 +210,35 @@
 
 <!-----Modal------>
 
-
+<div class="modal" tabindex="-1" role="dialog" id="joinNowModal" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Join MJJ Martial Arts Academy</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <span aria-hidden="true">×</span>
+    </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" class="form-control" id="fullName" placeholder="Roger Gracie" required>
+                      </div>
+                    <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                    <div class="form-group">
+                      <label for="contactNo">Contact Number</label>
+                      <input type="text" class="form-control" id="contactNo">
+                    </div>
+                    <button type="submit" class="btn btn-seondary mt-3">Submit</button>
+                  </form>
+        </div>
+    </div>
+</div>
 
     <!-----Scripts----->
 
