@@ -13,6 +13,9 @@ body {
     display: inline-block;
 }
 
+.container-fluid{
+    padding: 0;
+}
 /*------------------------------- Logo */
 
 
@@ -288,3 +291,28 @@ a.btn.btn-dark{
     font-weight: 600;
     color: #fafafa;
 }
+
+/*------------------------------- About Page */
+/*
+.instructorOne{
+    background: url(../images/instructor1.jpeg) no-repeat center;
+    background-size: cover;
+}
+*/
+
+.about-bg {
+    background: url(../images/sign-up.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-color: rgba(128, 128, 128, 0.795);
+
+}
+
+.instructors{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 800px;
+
+}
+
