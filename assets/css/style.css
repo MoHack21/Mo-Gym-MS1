@@ -20,6 +20,12 @@ body {
 .no-padding{
     padding: 0;
 }
+
+em{
+    color: rgb(185, 186, 216);
+    font-style: normal;
+    
+}
 /*------------------------------- Logo */
 
 
@@ -313,7 +319,7 @@ a.btn.btn-dark{
 
 }
 
-.instructor-heading{
+.about-heading{
     color: #fafafa;
     text-align: center;
     padding-top: 3rem;
@@ -360,4 +366,22 @@ hr{
 
 .instructor-two-details{
     background-color: #07141c80;
+}
+
+
+.about-details{
+    text-align: center;
+    color: #fafafa;
+}
+
+.train, .bus, .car, .cycling{
+    color: #fafafa;
+    text-align: center;
+}
+
+.train-map, .bus-map, .car-map, .cycle-map {
+    padding-left: 1.5rem;
+    padding-top: 0.4rem;
+    background-color: rgba(240, 231, 231, 0.336);
+    
 }
