@@ -16,6 +16,10 @@ body {
 .container-fluid{
     padding: 0;
 }
+
+.no-padding{
+    padding: 0;
+}
 /*------------------------------- Logo */
 
 
@@ -292,13 +296,7 @@ a.btn.btn-dark{
     color: #fafafa;
 }
 
-/*------------------------------- About Page */
-/*
-.instructorOne{
-    background: url(../images/instructor1.jpeg) no-repeat center;
-    background-size: cover;
-}
-*/
+
 
 .about-bg {
     background: url(../images/sign-up.jpg) no-repeat center;
@@ -306,13 +304,60 @@ a.btn.btn-dark{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-color: rgba(128, 128, 128, 0.795);
+    background-color: #808080cb;
 
 }
 
 .instructors{
     background-color: rgba(0, 0, 0, 0.5);
-    height: 800px;
 
 }
 
+.instructor-heading{
+    color: #fafafa;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+hr{
+    background-color: #fafafa;
+    width: 25%;
+}
+
+.instructorOne {
+    background: url(../images/instructor1.jpeg) no-repeat top center;
+    background-size:cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #808080cb;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.instructorTwo {
+    background: url(../images/instructor2.jpeg) no-repeat top center;
+    background-size:cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #808080cb;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.instructor-info{
+    text-align: left;
+    color: #fafafa;
+    margin: 3rem;
+    vertical-align: middle;
+
+}
+
+.instructor-one-details{
+    background-color: rgba(207, 207, 207, 0.40);
+}
+
+.instructor-two-details{
+    background-color: #07141c80;
+}
