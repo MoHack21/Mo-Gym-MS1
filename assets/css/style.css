@@ -176,7 +176,7 @@ footer{
 /*------------------------------- Classes Page - Classes */
 
 .classes-bg {
-    background: url(../images/classes.jpg) no-repeat;
+    background: url(../images/classes.jpg) no-repeat center;
     background-size: cover;
     background-color: rgba(128, 128, 128, 0.795);
 
@@ -208,9 +208,12 @@ footer{
 
 .summary{
 
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-transform: none;
     color: #fafafa;
+    background-color: #00000077;
+    padding: 20px;
+    
 }
 
 .detail{
