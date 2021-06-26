@@ -2,6 +2,8 @@
 
 #Mohamed Hussain
 
+![Respomsive](https://github.com/MoHack1-MS1/Responsive)
+
 ##MJJ Martial Arts
 
 [You can see my website here](https://mohack21.github.io/Mo-Gym-MS1/)
@@ -32,34 +34,6 @@ A brief overview of the Instructors will be provided along with soome of their c
 - HTML
 - CSS
 - BOOTSRAP 4
-
-
-## Features 
-
-
-
-
-
-
-- __The landing page__
-
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
-
-- __The Classes page__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
-- __The About Us page__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
 
 
 
